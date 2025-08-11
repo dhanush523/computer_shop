@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+     <section class="hero">
+    <div class="container">
+      <nav class="navbar">
+        <h1 class="logo">SMART TECH <span style="font-size: 10px;"></span></h1>
+
+        <!-- Hamburger icon -->
+        <div class="menu-icon" onclick="toggleMenu()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+
+        <!-- Navigation Links -->
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#courses">Service</a></li>
+         <li><a href="#courses">Products</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="content">
+        <h3>Finding Solutions For Your Problems</h3>
+        <p>Highly skilled technicians with years of expertise in computer and laptop repairs.</p>
+  <a href="course.html" class="btn">View Services<span class="arrow">→</span></a>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
+
+
+
+
+ <script>
+    function toggleMenu() {
+      const navLinks = document.getElementById("navLinks");
+      navLinks.classList.toggle("active");
+    }
+  </script>
